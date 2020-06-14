@@ -1,0 +1,15 @@
+body {
+	font-family: "Titillium Web", sans-serif;
+	margin: 0px;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+}

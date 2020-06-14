@@ -1,0 +1,22 @@
+.content-page-wrapper {
+	@include base-grid();
+	grid-template-columns: 1fr 1fr;
+	height: calc(100vh - 84px);
+
+	.left-column {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.right-column {
+		padding: 0px 45px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		font-size: 1.1em;
+		height: 100%;
+	}
+}

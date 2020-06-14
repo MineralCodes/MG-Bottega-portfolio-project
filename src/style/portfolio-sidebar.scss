@@ -1,0 +1,22 @@
+.portfolio-sidebar-list-wrapper {
+	.portfolio-item-thumb {
+		padding: 21px;
+	}
+
+	.portfolio-thumb-image img {
+		width: 100%;
+		border-radius: 8px;
+	}
+
+	.portfolio-thumb-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		color: $offwhite;
+
+		.portfolio-thumb-title {
+			font-size: 1.7em;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.portfolio-left-column {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.portfolio-right-column {
+	a {
+		padding: 15px;
+		background-color: $teal;
+		border-radius: 5px;
+		color: white;
+		transition: 0.5s ease-in-out;
+
+		&:hover {
+			background-color: $dark-teal;
+		}
+	}
+}

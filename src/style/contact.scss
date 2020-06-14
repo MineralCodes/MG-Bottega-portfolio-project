@@ -1,0 +1,19 @@
+.contact-link {
+	transition: 0.5s ease-in-out;
+
+	&:hover {
+		color: $dark-teal;
+	}
+}
+.contact-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	width: 200px;
+	font-size: 1.2em;
+
+	.contact-icon {
+		color: $teal;
+		margin-right: 20px;
+	}
+}
